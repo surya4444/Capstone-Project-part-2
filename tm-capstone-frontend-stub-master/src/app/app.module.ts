@@ -9,6 +9,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NavBarComponent } from './core/nav-bar/nav-bar.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { SignInComponent } from './shared/sign-in/sign-in.component';
+import { HomeComponent } from './home/home/home.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SignInComponent } from './shared/sign-in/sign-in.component';
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    SignInComponent
+    SignInComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
